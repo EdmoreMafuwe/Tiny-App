@@ -1,5 +1,5 @@
 
-//++++++FUNCTIONS+++++++
+//FUNCTIONS
 
 const urlsForUser = (id, urlDatabase) => {
   let userURLdata = {};
