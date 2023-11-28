@@ -1,4 +1,4 @@
-//+++++++DEPENDENCIES/SETUP++++++++++++
+//DEPENDENCIES/SETUP
 
 const express = require("express");
 const app = express();
