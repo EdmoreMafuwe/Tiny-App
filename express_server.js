@@ -25,12 +25,12 @@ app.set("view engine", "ejs");
 
 app.use("/static", express.static("public"));
 
-//+++++DATA OBJECTS +++++++++
+//DATA OBJECTS 
 
 const urlDatabase = {};
 const users = {};
 
-//++++ROUTES++++++
+//ROUTES
 
 //homepage
 app.get("/", (req, res) => {
