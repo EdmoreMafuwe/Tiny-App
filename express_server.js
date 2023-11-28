@@ -53,7 +53,7 @@ app.get("/register", (req, res) => {
   }
 });
 
-//validates registration, sends user to list of urls
+//validates registration, sends user to list of urls 
 app.post("/register", (req, res) => {
   const userID = getRandomString(6);
   const userEmail = req.body.email;
